@@ -1,22 +1,15 @@
-# youtube--ino-tools（ふわ・リール制作キット）
+# youtube-inputs（YouTube分析インプットセット）
+
+チャンネル別フォルダで管理する。
+- `kaishain/` — カイシャインのSNS高校：LINE限定講義②③とClaude動画のインプット用まとめ＋ASR原稿3本＋保存フォルダ活用動画（2026-11-11公開）の分析レポート
+- `manashiki/` — まな式チャンネル「Claude Code×SNSアルゴリズム徹底解説」インプットセット＋文字起こし
+- 動画内の数字・実績は話者の主張として扱い、検証済みの事実とは分けない
+- 編集はこのリポジトリで行う。まとめ `ino-knowhow-all` は配布用コピー
+
+## ふわ追加分（リール制作キット、2026-11-13）
 
 ふわのリール制作一式。設計は文書タイトル単位、台本集はリール1本（タイトル）単位に分解、制作スクリプトと静止画プロンプト集を収録。動画ファイル自体は含まない。
-
-## 収録タイトル
-
-- Instagramリール9本テスト設計_ABC_2026-11-07.md
-- production/assemble_all.py
-- production/build_v2.py
-- production/make_narrations.py
-- production/verify_finals.sh
-- scripts/00_導入.md
-- scripts/01_1日目_A1「白柴先生」Claudeに投稿作りを任せる3ステップ.md
-- scripts/02_2日目_B1「掛け合い」伸びないリール.md
-- scripts/03_3日目_C1「実証」自分のリールをGeminiに診断させる実録.md
-- scripts/04_4日目_A2「白柴先生」SNS運用で使うClaude_Skill_5選.md
-- scripts/05_5日目_B2「掛け合い」台本は全部AIに書かせる？.md
-- scripts/06_6日目_C2「実証」Museに台本を作らせるBeforeAfter.md
-- scripts/07_7日目_A3「白柴先生」Museの使い方3選.md
-- scripts/08_8日目_B3「掛け合い」フォロワー87人の現実.md
-- scripts/09_9日目_C3「実証」9本テストの数字を全部出す.md
-- 静止画プロンプト集_Genspark用.md
+- `Instagramリール9本テスト設計_ABC_2026-11-07.md` — 9本テスト設計（A/B/C形式）
+- `scripts/` — 台本集9本を1本単位に分解
+- `静止画プロンプト集_Genspark用.md`
+- `production/` — assemble_all.py / build_v2.py / make_narrations.py / verify_finals.sh
